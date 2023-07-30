@@ -56,7 +56,7 @@ public class TestVWOLogin {
 
     }
 
-    @Test(enabled = true, priority = 2, groups = {"positive", "sanity", "smoke"})
+    @Test(enabled = true, priority = 2, groups = {"positive", "sanity", "stage"})
     @Description("Verify that with Valid username and Valid password, Login is successfull !!")
     public void testValidLogin() throws InterruptedException {
 
